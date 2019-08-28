@@ -67,17 +67,26 @@ body>nav>div.enlaces{
   width: 130px;
   text-align: center;
   font-size: .9em;
- font-weight: bold;
+  font-weight: 2px;
   color:  #30124E;
 }
 
 body>nav>div.enlaces>div>a:link{
 	text-decoration: none;
-	color:white;
+	  color:  #30124E;
 }
 body>nav>div.enlaces>div>a:link{
 	text-decoration: none;
-	color:white;
+	  color:  #30124E;
+}
+
+
+
+.imagen1{
+background: #5E239D;
+width: 1440px;
+height: 360px;
+
 }
 
 
@@ -87,6 +96,8 @@ body>nav>div.enlaces>div>a:link{
 			width: 100%;
 
 	}
+
+
 body>nav>div.enlaces.enlaces,.contacto{
 display: none;
 visibility: hidden;
