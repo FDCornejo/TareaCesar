@@ -1,0 +1,134 @@
+body{
+	width: 90%;
+	margin-left: 5%;
+	background-color: black;
+
+}
+nav{
+
+		display: flex;
+		 justify-content: space-around;
+height: 100px;
+  align-items: center;
+  background-color: white;
+}
+
+body>nav>div.logo{
+ height: 100%;
+ width: 200px;
+ display: flex;
+  align-items: center;
+  color:  #30124E;
+  font-family: 'Lexend Deca', sans-serif ;
+
+}
+
+body>nav>div.contacto{
+ height: 100%;
+ display: flex;
+  width: 300px;
+ font-size: 20px;
+  align-items: center;
+ font-family: 'Lexend Deca', sans-serif ;
+  color:  #30124E;
+
+}
+body>nav>div.elMenu{
+ height: 100%;
+ display: flex;
+  align-items: center;
+
+
+
+}
+
+.elMenu>button{
+	 background-color: transparent; /* Green */
+  border: none;
+    color:  #30124E;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2em;
+
+}
+
+body>nav>div.enlaces{
+	 display: flex;
+  justify-content: center;
+ font-family: 'Lexend Deca', sans-serif ;
+  height: 100%;
+  align-items: center;
+
+
+}
+.enlaces > div {
+  width: 130px;
+  text-align: center;
+  font-size: .9em;
+ font-weight: bold;
+  color:  #30124E;
+}
+
+body>nav>div.enlaces>div>a:link{
+	text-decoration: none;
+	color:white;
+}
+body>nav>div.enlaces>div>a:link{
+	text-decoration: none;
+	color:white;
+}
+
+
+@media only screen and (max-width: 600px) {
+	body{
+			margin-left: 0%;
+			width: 100%;
+
+	}
+body>nav>div.enlaces.enlaces,.contacto{
+display: none;
+visibility: hidden;
+
+}
+
+
+body>nav>div.logo{
+ height: 100%;
+ width: 300px;
+ display: flex;
+  align-items: center;
+
+
+}
+
+} 
+@media screen and (max-width: 960px) and (min-width: 600px) {
+
+	body{
+			margin-left: 0%;
+			width: 100%;
+
+	}
+body>nav>div.contacto{
+display: none;
+visibility: hidden;
+
+}
+
+
+body>nav>div.logo{
+ height: 100%;
+ width: 300px;
+ display: flex;
+  align-items: center;
+
+
+}
+
+}
+
+
+
+
