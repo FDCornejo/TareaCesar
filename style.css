@@ -1,265 +1,347 @@
-body{
-	width: 90%;
-	margin-left: 5%;
-	background-color: black;
-
+body {
+     width: 90%;
+     margin-left: 5%;
+     background-color: black;
 }
-nav{
-
-		display: flex;
-		 justify-content: space-around;
-height: 100px;
-  align-items: center;
-  background-color: white;
+ nav {
+     display: flex;
+     justify-content: space-around;
+     height: 100px;
+     align-items: center;
+     background-color: white;
 }
-
-body>nav>div.logo{
- height: 100%;
- width: 200px;
- display: flex;
-  align-items: center;
-  color:  #30124E;
-  font-family: 'Lexend Deca', sans-serif ;
-
+ body>nav>div.logo {
+     height: 100%;
+     width: 200px;
+     display: flex;
+     align-items: center;
+     color: #30124E;
+     font-family: 'Lexend Deca', sans-serif;
 }
-
-body>nav>div.contacto{
- height: 100%;
- display: flex;
-  width: 300px;
- font-size: 20px;
-  align-items: center;
- font-family: 'Lexend Deca', sans-serif ;
-  color:  #30124E;
-
+ body>nav>div.contacto {
+     height: 100%;
+     display: flex;
+     width: 300px;
+     font-size: 20px;
+     align-items: center;
+     font-family: 'Lexend Deca', sans-serif;
+     color: #30124E;
 }
-body>nav>div.elMenu{
- height: 100%;
- display: flex;
-  align-items: center;
-
-
-
+ body>nav>div.elMenu {
+     height: 100%;
+     display: flex;
+     align-items: center;
 }
+ .elMenu>button {
+     background-color: transparent;
+    /* Green */
+     border: none;
+     color: #30124E;
+     padding: 15px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 2em;
+}
+ body>nav>div.enlaces {
+     display: flex;
+     justify-content: center;
+     font-family: 'Lexend Deca', sans-serif;
+     height: 100%;
+     align-items: center;
+}
+ .enlaces > div {
+     width: 130px;
+     text-align: center;
+     font-size: .9em;
+     font-weight: 2px;
+     color: #30124E;
+}
+ body>nav>div.enlaces>div>a:link {
+     text-decoration: none;
+     color: #30124E;
+}
+ body>nav>div.enlaces>div>a:link {
+     text-decoration: none;
+     color: #30124E;
+}
+ .imagen1 {
+     background-image: url(Image1.png);
+     width: auto;
+     height: 360px;
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     justify-content: space-between;
+     font-family: 'Lexend Deca', sans-serif;
+     background-size: cover;
+     background-position: center;
+}
+ .imagen1>div {
+     width: 600px;
+     text-align: center;
+}
+ .imagen1>div>h1 {
+     color: #F61067;
+     font-size: 3em;
+}
+ .imagen1>div>h2 {
+     color: white;
+     font-size: em;
+}
+ .Ubicanos {
+     display: flex;
+     flex-wrap: wrap;
+     width: auto;
+     height: 100%;
+     height: 1224px;
+     background-color: #30124E;
+}
+ .Ubicanos> div {
+     width: 50%;
+     background-color: red;
+}
+ .Ubicanos>div.datos {
+     height: 720px;
+     background-color: white;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+ .Ubicanos>div.datos>section.contenedor {
+     width: 60%;
+     height: 80%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content:;
+}
+ .contenedor> div.data, .textoData {
+     display: inline;
+     width: 82%;
+     margin: 20px;
+     text-align: center;
+}
+ .contenedor>div.data>section.textoData>div>small{
+     color: #776C82;
+}
+ .contenedor>div.data>section.textoData>div>h1{
+     font-size: 1.3em;
+}
+ .contenedor> div.data {
+     height: 100%;
+     display: flex;
+     align-items: center;
+}
+ .data>section.textoData {
+     display: flex;
+     justify-content: space-around;
+     flex-direction: column;
+     height: 100%;
+     width: 100%;
+}
+ .data>section.textoData>div {
+     text-align: left;
+     align-items: flex-start 
+}
+ .data>section.iconos {
+     display: flex;
+     justify-content: space-around;
+     flex-direction: column;
+     height: 100%;
+     width: 30%;
+}
+ .data>section.iconos>div>i{
+     color:#F61067;
+     font-size: 2.5em;
+}
+ .contenedor> div> h1 {
+     font-size: 2em;
+     width: 300px;
+     text-align: left;
+}
+ .contenedor {
+     font-family: 'Lexend Deca', sans-serif;
+}
+ .Ubicanos>div.imagen {
+     height: 1224px;
+     background-image: url(Image2.png);
+     background-size: cover;
+     background-position: center;
+}
+ .espaciador{
+     border: 1px solid blue;
+     display: flex;
+     width: 100%;
+     height: 300px;
+     background-color: #30124E;
+}
+ footer{
+     border: 1px solid green;
+     display: flex;
+     width: 100%;
+     height: 400px;
+     background-color: #30124E;
+}
+ .formulario{
+     position: absolute;
+     left: 0px;
+     top: 1100px;
+     z-index: +1;
+     border: 1px solid green;
+     display: flex;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     
+}
+ .formulario>div.elCuadrito{
+     color: white;
+     width: 946px;
+     height:100%;
+     background-color: #150433;
+     flex-wrap: wrap;
+}
+ .formulario>div.elCuadrito>div.tituloForm{
+     display: flex;
+     height: 20%;
+     align-items: center 
+}
+ .formulario>div.elCuadrito>div.tituloForm>h1{
+     font-size: 2em;
+     font-family: 'Lexend Deca', sans-serif;
+}
+ .formulario>div.elCuadrito>div.Entradas>div.mensaje{
+     display: flex;
+     width: 50%;
+     height: 100%;
+     flex-wrap: wrap
+}
+.esposa{
+    width: 504px;
+height: 189px;
+}
+ .formulario>div.elCuadrito>div.Entradas>div.mensaje>h2{
+     font-family: 'Lexend Deca', sans-serif;
+     letter-spacing: 14px;
+     line-height: 1.6;
+}
+ .formulario>div.elCuadrito>div.Entradas{
+     height: 50%;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+}
+ .formulario>div.elCuadrito>div.Entradas>div{
+     width: 40%;
+     height: 100%;
+     display: flex;
+     flex-wrap: wrap;
+}
+ .formulario>div.elCuadrito>div.Entradas>div>div{
 
-.elMenu>button{
-	 background-color: transparent; /* Green */
-  border: none;
-    color:  #30124E;
+     width: 100%;
+     height: 45%;
+}
+ .formulario>div.elCuadrito>div.Entradas>div>div>input{
+     width: 90%;
+     height: 30%;
+     box-sizing: border-box;
+     font-size: 3em;
+}
+ .formulario>div.elCuadrito>div.Entradas>div>div>h2{
+     letter-spacing: 14px;
+     line-height: 1.6;
+     font-family: 'Lexend Deca', sans-serif;
+}
+ .formulario>div.elCuadrito>div.elBoton{
+     height: 20%;
+          display: flex;
+     align-items: center;
+     justify-content: center;
+}
+ .formulario>div.elCuadrito>div.elBoton>button{
+         font-family: 'Lexend Deca', sans-serif;
+  color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 2em;
+  margin: 4px 2px;
+     font-size: 13.5px;
+     border-radius: 36px;
+     font-weight: 500;
+     background: #F61067;
+     letter-spacing: 2px;
 
 }
-
-body>nav>div.enlaces{
-	 display: flex;
-  justify-content: center;
- font-family: 'Lexend Deca', sans-serif ;
-  height: 100%;
-  align-items: center;
-
-
-}
-.enlaces > div {
-  width: 130px;
-  text-align: center;
-  font-size: .9em;
-  font-weight: 2px;
-  color:  #30124E;
-}
-
-body>nav>div.enlaces>div>a:link{
-	text-decoration: none;
-	  color:  #30124E;
-}
-body>nav>div.enlaces>div>a:link{
-	text-decoration: none;
-	  color:  #30124E;
-}
-
-
-
-.imagen1{
-background-image : url(Image1.png);
-width: auto;
-height: 360px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    justify-content: space-between;
-     font-family: 'Lexend Deca', sans-serif ;
-
-    background-size: cover;
-    background-position: center;
-    
-
-}
-.imagen1>div{
-    width: 600px;
-      text-align: center;
-    
-}
-.imagen1>div>h1{
-    color: #F61067;
-    font-size: 3em;
-}
-.imagen1>div>h2{
-    color: white;
-    font-size: em;
-}
-.Ubicanos{
-display: flex;
-    flex-wrap: wrap;
-    width: auto;
-    height: 100%;
-    height: 1224px;
-    background-color: #30124E;
-
-}
-.Ubicanos> div{
-    width: 50%;
-    background-color: red;
-    
-}
-.Ubicanos>div.datos{
-    height: 720px;
-    background-color: white;
-    display: flex;
-        align-items: center;
-    justify-content: center;
-}
-
-.Ubicanos>div.datos>section.contenedor{
-   
-    width: 60%;
-    height: 80%;
-     border: 2px solid red;
-    display: flex;
-  flex-direction: column;
-            align-items: center;
-    justify-content: ;
-}
-.contenedor> div.data,.textoData {
-    display:inline;
-
-  width: 82%;
-  margin: 20px;
-  text-align: center;
-}
-.contenedor> div.data{
-    border: 1px solid green;
-    height: 100%;
-    display: flex;
-    align-items: center;
-
-}
-
-.data>section.textoData{
-     display: flex;
-    border: 2px solid blue;
-    justify-content: space-around;
-    flex-direction: column;
-    height: 100%;
-    width: 100%;   
-}
-.data>section.textoData>div{
-    border: 2px solid orange;
-    text-align: left;
-    align-items: flex-start
-}
-
-.data>section.iconos{
-     display: flex;
-    border: 2px solid blue;
-    justify-content: space-around;
-    flex-direction: column;
-    height: 100%;
-    width: 30%;   
-}
-.data>section.iconos>div{
-    border: 2px solid orange;
-}
-.contenedor> div> h1 {
-    font-size: 2em;
-    width: 300px;
-    text-align: left;
-   
-}
-.contenedor{
-     font-family: 'Lexend Deca', sans-serif ;
-}
-
-.Ubicanos>div.imagen{
-    height: 1224px;
-    background-image : url(Image2.png);
-    background-size: cover;
-    background-position: center;
-}
-
-
-
-@media only screen and (max-width: 600px) {
-	body{
-			margin-left: 0%;
-			width: 100%;
-
-	}
-    
-    .Ubicanos> div.datos{
-        width: 100%;
+ @media only screen and (max-width:600px) {
+     .formulario>div.elCuadrito{
+         width: 100%;
+     }
+     .formulario>div.elCuadrito>div.Entradas>div{
+         border: 1px solid blue;
+         background-color: darkred;
+         width: 100%;
     }
-
-
-body>nav>div.enlaces.enlaces,.contacto{
-display: none;
-visibility: hidden;
-
-
-}
-
-
-body>nav>div.logo{
- height: 100%;
- width: 300px;
- display: flex;
-  align-items: center;
-
-
-}
-    .Ubicanos>div.imagen{
-        display: none;
-        visibility: hidden;
+     .formulario>div.elCuadrito>div.Entradas>div.mensaje{
+         display: flex;
+         width: 100%;
     }
-
-} 
-@media (min-width: 768px) and (max-width: 1024px) {
-
-	body{
-			margin-left: 1%;
-			width: 98%;
-
-	}
-body>nav>div.contacto{
-display: none;
-visibility: hidden;
-
+     .formulario>div{
+         width: 100%;
+    }
+     .Ubicanos>div.datos>section.contenedor{
+         width: 100%;
+         height: 80%;
+    }
+     body {
+         margin-left: 0%;
+         width: 100%;
+    }
+     .Ubicanos> div.datos {
+         width: 100%;
+    }
+     body>nav>div.enlaces.enlaces, .contacto {
+         display: none;
+         visibility: hidden;
+    }
+     body>nav>div.logo {
+         height: 100%;
+         width: 300px;
+         display: flex;
+         align-items: center;
+    }
+     .Ubicanos>div.imagen {
+         display: none;
+         visibility: hidden;
+    }
 }
-
-
-body>nav>div.logo{
- height: 100%;
- width: 300px;
- display: flex;
-  align-items: center;
-
-
+ @media (min-width:768px) and (max-width:1024px) {
+     .formulario>div.elCuadrito>div.Entradas>div{
+         border: 1px solid blue;
+         background-color: darkred;
+         width: 45%;
+    }
+     .formulario>div{
+         width: 80%;
+    }
+     .Ubicanos>div.datos>section.contenedor{
+         width: 100%;
+         height: 80%;
+    }
+     body {
+         margin-left: 1%;
+         width: 98%;
+    }
+     body>nav>div.contacto {
+         display: none;
+         visibility: hidden;
+    }
+     body>nav>div.logo {
+         height: 100%;
+         width: 300px;
+         display: flex;
+         align-items: center;
+    }
 }
-
-}
-
-
-
-
