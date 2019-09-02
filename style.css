@@ -176,28 +176,118 @@ body {
      background-color: #30124E;
 }
  footer{
-     
      display: flex;
      width: 100%;
-     height: 400px;
-     background-color: #30124E;
+     min-height: 400px;
+         background-color: #30124E;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     font-family: 'Lexend Deca', sans-serif;
 }
+
+footer>div{
+
+    color: white;
+}
+footer>.marca{
+    width: 150px;
+}
+footer>.marcas{
+    display: flex;
+    width: 250px;
+    
+    
+    
+    
+}
+.followUs{
+    width: 20%;
+
+
+}
+
+.contactUs{
+    width: 25%;   
+}
+.marcas>div{
+  width: 50%;
+  margin: 10px;
+  text-align: left;
+
+
+    
+}
+.marcas>div>h5{
+    text-decoration: underline;
+    text-decoration-color: #F61067;
+    line-height: 26px;
+    letter-spacing: 6px;
+text-transform: uppercase;
+}
+.marcas>div>div>li{
+    font-size: .9em;
+    list-style-type:none;
+    text-align: left;
+    
+}
+
+div.followUs>h5{
+    line-height: 26px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: #F61067;
+}
+.followUs>div.iconos{
+
+    display: flex;
+    
+    justify-content: space-around;
+}
+
+.contactUs>div>li{
+    font-size: .9em;
+    list-style-type:none;
+    text-align: left;
+    line-height: 26px;
+    font-weight: normal;
+    font-size: 12.2px;
+    
+}
+.contactUs>div>li>i{
+    font-size: .9em;
+    list-style-type:none;
+    text-align: left;
+    
+}
+
+
+
+
+
+.contactUs>h5{
+    text-decoration: underline;
+    text-decoration-color: #F61067;
+    line-height: 26px;
+    letter-spacing: 6px;
+text-transform: uppercase;
+}
+
+
  .formulario{
      position: absolute;
      left: 0px;
      top: 1100px;
      z-index: +1;
-  
      display: flex;
      width: 100%;
      display: flex;
      justify-content: center;
-     
 }
  .formulario>div.elCuadrito{
      color: white;
      width: 946px;
-     height:100%;
+     min-height:720px;
      background-color: #150433;
      flex-wrap: wrap;
 }
@@ -214,11 +304,11 @@ body {
      display: flex;
      width: 50%;
      height: 100%;
-     flex-wrap: wrap
+     flex-wrap: wrap 
 }
-.esposa{
-    width: 504px;
-height: 189px;
+ .esposa{
+     width: 504px;
+     height: 189px;
 }
  .formulario>div.elCuadrito>div.Entradas>div.mensaje>h2{
      font-family: 'Lexend Deca', sans-serif;
@@ -238,7 +328,6 @@ height: 189px;
      flex-wrap: wrap;
 }
  .formulario>div.elCuadrito>div.Entradas>div>div{
-
      width: 100%;
      height: 45%;
 }
@@ -255,39 +344,38 @@ height: 189px;
 }
  .formulario>div.elCuadrito>div.elBoton{
      height: 20%;
-          display: flex;
+     display: flex;
      align-items: center;
      justify-content: center;
 }
  .formulario>div.elCuadrito>div.elBoton>button{
-         font-family: 'Lexend Deca', sans-serif;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 4px 2px;
+     font-family: 'Lexend Deca', sans-serif;
+     color: white;
+     padding: 15px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     margin: 4px 2px;
      font-size: 13.5px;
      border-radius: 36px;
      font-weight: 500;
      background: #F61067;
+     text-transform: uppercase;
      letter-spacing: 2px;
-
 }
  @media only screen and (max-width:600px) {
      .formulario>div.elCuadrito{
-         width: 100%;
-     }
+         color: white;
+         width: 90%;
+         height:100%;
+         background-color: #150433;
+         flex-wrap: wrap;
+    }
      .formulario>div.elCuadrito>div.Entradas>div{
-       
-
          width: 100%;
     }
      .formulario>div.elCuadrito>div.Entradas>div.mensaje{
          display: flex;
-         width: 100%;
-    }
-     .formulario>div{
          width: 100%;
     }
      .Ubicanos>div.datos>section.contenedor{
@@ -342,3 +430,4 @@ height: 189px;
          align-items: center;
     }
 }
+ 
